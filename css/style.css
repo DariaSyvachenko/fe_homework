@@ -1,0 +1,67 @@
+.white-cloth {
+    width: 200px; /* Задаємо ширину прапора */
+    height: 120px; /* Задаємо висоту прапора */
+    background-color: white; /* Встановлюємо білий фон */
+    position: relative;
+    border: 1px solid black; /* Додаємо чорну рамку */
+    top: 20px;
+  }
+
+  .red-circle {
+    width: 75px; /* Розмір червоного кола */
+    height: 75px;
+    background-color: red; /* Встановлюємо червоний колір */
+    border-radius: 50%; /* Заокруглюємо коло */
+    position: absolute;
+    top: 20px; /* Позиція верхнього краю кола відносно прапора */
+    left: 50%; /* Позиція центру кола відносно прапора */
+    margin-left: -40px; /* Зсув кола вліво на половину своєї ширини */
+  }
+  .white {
+    width: 200px; /* Задаємо ширину прапора */
+    height: 120px; /* Задаємо висоту прапора */
+    background-color: white; /* Встановлюємо білий фон */
+    border: 1px solid black; /* Додаємо чорну рамку */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+  }
+  .red {
+    width: 75px; /* Розмір червоного кола */
+    height: 75px;
+    background-color: red; /* Встановлюємо червоний колір */
+    border-radius: 50%; /* Заокруглюємо коло */
+    transform: translateX(2%); /* Центруємо коло горизонтально */
+  }
+  table.iksweb{
+    width: 100%;
+    border-collapse:collapse;
+    border-spacing:0;
+    height: auto;
+  }
+  table.iksweb,table.iksweb td, table.iksweb th {
+    border: 1px solid #595959;
+  }
+  table.iksweb td,table.iksweb th {
+    padding: 3px;
+    width: 30px;
+    height: 35px;
+  }
+  table.iksweb th {
+    background: #347c99; 
+    color: #fff; 
+    font-weight: normal;
+  }
+  .string1{
+    background: #098F8F;
+  }
+  .string1 :hover{
+background: #F5F509;
+  }
+  .string2{
+    background: #F5F509;
+  }
+  .string2 :hover{
+    background: #098F8F;
+      }
